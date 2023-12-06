@@ -1,3 +1,8 @@
+<h3 align="center">
+    🔹
+    <a href="https://karamelih.github.io/">Check out my page</a>
+    🔹
+</h3>
 
 ## TL;DR
 
