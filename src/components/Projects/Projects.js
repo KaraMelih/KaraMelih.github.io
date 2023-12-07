@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-// import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-// import editor from "../../Assets/Projects/codeEditor.png";
+import cluster from "../../Assets/Projects/galaxy-clusters.png";
 import snews_pt from "../../Assets/Projects/snews_logo.png";
-// import suicide from "../../Assets/Projects/suicide.png";
-// import bitsOfCode from "../../Assets/Projects/blog.png";
+import ptany from "../../Assets/Projects/kara-pythonanywhere.png";
 
 function Projects() {
   return (
@@ -28,22 +25,41 @@ function Projects() {
             <ProjectCard
               imgPath={snews_pt}
               isBlog={false}
-              title="SNEWS"
-              description="Supernova Early Warning System Software"
+              title="SNEWS PT"
+              description="Supernova Early Warning System Frontend Software, Publishing Tools"
               ghLink="https://github.com/SNEWS/SNEWS_Publishing_Tools"
             />
           </Col>
 
-          {/*<Col md={4} className="project-card">*/}
-          {/*  <ProjectCard*/}
-          {/*    imgPath={bitsOfCode}*/}
-          {/*    isBlog={false}*/}
-          {/*    title="Bits-0f-C0de"*/}
-          {/*    description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."*/}
-          {/*    ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"*/}
-          {/*    demoLink="https://blogs.soumya-jit.tech/"*/}
-          {/*  />*/}
-          {/*</Col>*/}
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={snews_pt}
+              isBlog={false}
+              title="SNEWS CS"
+              description="Supernova Early Warning System Backend Software, Coincidence System"
+              ghLink="https://github.com/SNEWS/SNEWS_Coincidence_System"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ptany}
+              isBlog={true}
+              title="SNEWS Dashboard"
+              description="SNEWS Dashboard for time delay estimation"
+              demoLink="https://kara.pythonanywhere.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cluster}
+              isBlog={false}
+              title="eROSITA Galaxy Clusters Mass Estimation"
+              description="eROSITA Galaxy Clusters Mass Estimation using Machine Learning"
+              demoLink="https://arxiv.org/abs/2305.00016"
+            />
+          </Col>
 
           {/*<Col md={4} className="project-card">*/}
           {/*  <ProjectCard*/}

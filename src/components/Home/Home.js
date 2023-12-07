@@ -13,8 +13,8 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <span className="wave" role="img" aria-labelledby="wave">
-                  This is a work in progress.
+              <span className="heading-name" role="img" aria-labelledby="wave">
+                <em> This is a work in progress. </em>
               </span>
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Hi There!{" "}

@@ -1,11 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  SiAtom,
-  SiHeroku,
-  SiVercel,
-} from "react-icons/si";
-
+import { SiAtom, SiHurriyetemlak } from "react-icons/si";
 import { AiOutlineStock } from "react-icons/ai"
 import {DiPython} from "react-icons/di";
 
@@ -25,13 +20,13 @@ function Interests() {
           <h2> Science </h2>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiHurriyetemlak />
           <h2> Investment </h2>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
-          <h2> Coding </h2>
-      </Col>
+      {/*<Col xs={4} md={2} className="tech-icons">*/}
+      {/*  <SiHeroku />*/}
+      {/*    <h2> Coding </h2>*/}
+      {/*</Col>*/}
     </Row>
   );
 }

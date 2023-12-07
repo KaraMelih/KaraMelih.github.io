@@ -15,12 +15,12 @@ function AboutCard() {
             <br /> Currently, a <span className="purple">Ph.D. candidate</span> at Karlsruhe Institute Technology, KIT.
             <br />
             <br />
-            I work in an experiment called <span className="purple">XENONnT</span>, we are trying to detect signals from rare events, such as Dark Matter.
+            I work in an experiment called
+            <a href="https://xenonexperiment.org/" target="_blank" rel="noopener noreferrer" className="purple">XENONnT</a>, we are trying to detect signals from rare events, such as Dark Matter.
             <br /> My main task is however to hunt <span className="purple">Supernovae</span> and study our detectors sensitivities.
-            <br /> Along with the analysis, I also do a lot of programming work for SuperNova Early Warning System, <span className="purple">SNEWS</span>.
-            Along with physics, I'm a coding enthusiast!
+            <br /> Along with the analysis, I also do a lot of programming work for SuperNova Early Warning System,
+            <a href="https://snews2.org/" target="_blank" rel="noopener noreferrer" className="purple">SNEWS</a>.
           </p>
-
           <p style={{ color: "rgb(155 126 172)" }}>
             "Sail away from the safe harbor. <br />
              Catch the trade winds in your sails. explore. dream. discover!"{" "}
