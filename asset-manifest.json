@@ -1,24 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.29bc8131.css",
-    "main.js": "/static/js/main.3b8bf32f.js",
+    "main.js": "/static/js/main.d35a3d2c.js",
     "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/mk-lngs.png": "/static/media/mk-lngs.11231fba6ee20e5e397d.png",
     "static/media/about.png": "/static/media/about.afbd3157cbd651c63caf.png",
+    "static/media/galaxy-clusters.png": "/static/media/galaxy-clusters.a7562d2aa5e3ef44d3ed.png",
     "static/media/Melih_Kara-resume.pdf": "/static/media/Melih_Kara-resume.fc3f9f78945d046effc6.pdf",
     "static/media/snews_logo.png": "/static/media/snews_logo.42afb8036019808d2700.png",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/kara-pythonanywhere.png": "/static/media/kara-pythonanywhere.350ed51540f79b06dc2a.png",
     "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
     "main.29bc8131.css.map": "/static/css/main.29bc8131.css.map",
-    "main.3b8bf32f.js.map": "/static/js/main.3b8bf32f.js.map",
+    "main.d35a3d2c.js.map": "/static/js/main.d35a3d2c.js.map",
     "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.29bc8131.css",
-    "static/js/main.3b8bf32f.js"
+    "static/js/main.d35a3d2c.js"
   ]
 }
