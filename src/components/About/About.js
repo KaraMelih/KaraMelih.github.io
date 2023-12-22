@@ -31,7 +31,6 @@ function About() {
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
-              This is a test
           </Col>
         </Row>
 
