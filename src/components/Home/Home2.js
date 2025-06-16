@@ -19,21 +19,19 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am doing a <b className="purple"> Ph.D. </b> in experimental astroparticle physics at the Karlsruhe
-              Institute of Technology, where I mostly focus on direct <b className="purple">dark matter</b> searches and
-              <b className="purple"> supernova</b> neutrino detection.
-              <br /><br/>
-              Not so surprisingly, my days and nights blur together like any other academic. While spending most of
-              my time in front of a computer,
-              running simulations, analyzing data, writing papers, and occasionally doing some small hardware work,
-              I also enjoy doing other things.
-              <br/><br/>
-              Data visualization, automation, interactive tools, statistical analysis, and machine learning are some of the things
-              I enjoy doing.
-              <br /><br/>
-              I am also a passive market investor with an interest in financial technologies. My non-scholar interests
-              include <i>rowing, vinyl records, cooking, acrylic painting, poker and sudoku.</i>
-              <br />
+              I hold a <b className="purple">Ph.D.</b> in experimental astroparticle physics from the Karlsruhe
+              Institute of Technology, where I specialized in <b className="purple">dark matter</b> detection and
+              <b className="purple"> supernova</b> neutrino signal analysis.
+              <br /><br />
+              Much of my work has revolved around data-driven research — developing real-time software, running simulations,
+              analyzing detector data, and publishing results in peer-reviewed journals.
+              <br /><br />
+              I enjoy building tools for <b className="purple">data analysis</b>, <b className="purple">visualization</b>,
+              and <b className="purple">machine learning</b>. My current focus is on applying these skills in
+              the finance and technology sectors, particularly in data science and quantitative research roles.
+              <br /><br />
+              Outside of work, I’m a passive investor with a growing interest in financial technologies.
+              I also enjoy <i>rowing, collecting vinyl records, cooking, acrylic painting, poker, and sudoku.</i>
               <br />
             </p>
           </Col>
