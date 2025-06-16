@@ -1,0 +1,52 @@
+.accordion-item {
+  background: transparent !important;
+  border: none;
+  text-align: center;
+  justify-content: center;
+}
+
+.accordion-header {
+  justify-content: center;
+  text-align: center;
+}
+
+.accordion-button {
+  background-color: transparent !important;
+  color: #c770f0 !important;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  box-shadow: none !important;
+  justify-content: center;
+}
+
+
+.accordion-button::after {
+  margin-left: auto; /* moves the toggle icon to the right cleanly */
+  display: none;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #c770f0 !important;
+  background-color: transparent !important;
+}
+
+.accordion-body {
+  color: white;
+  text-align: center;
+  background-color: transparent;
+}
+
+.intro-box {
+  border: 1px solid white;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  max-width: 100%;
+  background-color: rgba(255, 255, 255, 0.05);
+  max-width: 80%;
+  margin: 0 auto;
+}
