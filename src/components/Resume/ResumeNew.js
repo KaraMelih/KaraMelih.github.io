@@ -57,7 +57,7 @@
 // import React from "react";
 import { Container, Row, Col, Button, Accordion } from "react-bootstrap";
 import Particle from "../Particle";
-// import pdf from "../../../public/Melih_Kara-resume.pdf";
+
 import { AiOutlineDownload } from "react-icons/ai";
 import melihImage from "../../Assets/MelihKara-suit.jpg";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -120,10 +120,9 @@ function ResumeNew() {
       <Container fluid className="resume-section">
         <Particle />
 
-        <Row style={{ justifyContent: "center" }} className="mb-4">
+        <Row style={{ justifyContent: "center", position: "relative", zIndex: 10 }} className="mb-4">
           <Button
             variant="primary"
-            // href={pdf}
             href="/Melih_Kara-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
@@ -131,6 +130,8 @@ function ResumeNew() {
           >
             <AiOutlineDownload />&nbsp;Download Full Resume (PDF)
           </Button>
+
+
         </Row>
 
         <Row className="align-items-start">
