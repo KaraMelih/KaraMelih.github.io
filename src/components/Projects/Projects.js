@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import cluster from "../../Assets/Projects/galaxy-clusters.png";
 import snews_pt from "../../Assets/Projects/snews_logo.png";
 import ptany from "../../Assets/Projects/kara-pythonanywhere.png";
+import timebox from "../../Assets/Projects/timebox-notes-organizer.png";
 
 function Projects() {
   return (
@@ -58,6 +59,19 @@ function Projects() {
               title="eROSITA Galaxy Clusters Mass Estimation"
               description="eROSITA Galaxy Clusters Mass Estimation using Machine Learning"
               demoLink="https://arxiv.org/abs/2305.00016"
+            />
+          </Col>
+
+           <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={timebox}
+              title="TimeBox"
+              description="A timeboxing app to manage your daily schedule and priorities."
+              ghLink="https://github.com/KaraMelih/timebox-notes-organizer"
+              demoLink="" // optional or remove
+              // extraLink="https://karamelih.github.io/timebox/"
+              extraLink="https://timebox-notes-organizer.lovable.app/"
+              extraLabel="Open App"
             />
           </Col>
 

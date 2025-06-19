@@ -33,6 +33,19 @@ function ProjectCards(props) {
             {"Demo"}
           </Button>
         )}
+        {/* Optional custom button */}
+        {props.extraLink && props.extraLabel && (
+          <Button
+            variant="secondary"
+            href={props.extraLink}
+            target="_blank"
+            style={{ marginLeft: "10px" }}
+          >
+            <CgWebsite /> &nbsp;
+            {props.extraLabel}
+          </Button>
+        )}
+
       </Card.Body>
     </Card>
   );
