@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="SNEWS PT"
               description="Supernova Early Warning System Frontend Software, Publishing Tools"
-              ghLink="https://github.com/SNEWS/SNEWS_Publishing_Tools"
+              ghLink="https://github.com/SNEWS2/SNEWS_Publishing_Tools"
             />
           </Col>
 
@@ -37,7 +37,7 @@ function Projects() {
               isBlog={false}
               title="SNEWS CS"
               description="Supernova Early Warning System Backend Software, Coincidence System"
-              ghLink="https://github.com/SNEWS/SNEWS_Coincidence_System"
+              ghLink="https://github.com/SNEWS2/SNEWS_Coincidence_System"
             />
           </Col>
 
