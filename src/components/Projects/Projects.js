@@ -3,7 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import cluster from "../../Assets/Projects/galaxy-clusters.png";
-import snews_pt from "../../Assets/Projects/snews_logo.png";
+// import snews_pt from "../../Assets/Projects/snews_logo.png";
+import snews_pt from "../../Assets/Projects/snews_logo_inv.png";
 import ptany from "../../Assets/Projects/kara-pythonanywhere.png";
 import timebox from "../../Assets/Projects/timebox-notes-organizer.png";
 
@@ -29,6 +30,8 @@ function Projects() {
               title="SNEWS PT"
               description="Supernova Early Warning System Frontend Software, Publishing Tools"
               ghLink="https://github.com/SNEWS2/SNEWS_Publishing_Tools"
+              extraLink="https://iopscience.iop.org/article/10.1088/1748-0221/19/10/P10017"
+              extraLabel="Publication"
             />
           </Col>
 
@@ -39,6 +42,8 @@ function Projects() {
               title="SNEWS CS"
               description="Supernova Early Warning System Backend Software, Coincidence System"
               ghLink="https://github.com/SNEWS2/SNEWS_Coincidence_System"
+              extraLink="https://iopscience.iop.org/article/10.1088/1748-0221/19/10/P10017"
+              extraLabel="Publication"
             />
           </Col>
 
@@ -48,7 +53,8 @@ function Projects() {
               isBlog={true}
               title="SNEWS Dashboard"
               description="SNEWS Dashboard for time delay estimation"
-              demoLink="https://kara.pythonanywhere.com/"
+              extraLink="https://kara.pythonanywhere.com/"
+              extraLabel="Open App"
             />
           </Col>
 
