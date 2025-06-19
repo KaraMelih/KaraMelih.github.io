@@ -6,11 +6,17 @@ function Type() {
     <Typewriter
       options={{
         strings: [
+          // "Data Scientist",
+          // "Astroparticle Physicist",
+          // "Physics Engineer",
+          // "Experimentalist",
+          // "Developer",
+          "PhD in Astroparticle Physics",
           "Data Scientist",
-          "Astroparticle Physicist",
-          "Physics Engineer",
-          "Experimentalist",
-          "Developer",
+          "Machine Learning & Statistics",
+          "Signal Processing Expert",
+          "Turning Data into Insight",
+          "Python, SQL, Git, LaTeX",
         ],
         autoStart: true,
         loop: true,
