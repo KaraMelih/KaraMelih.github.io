@@ -7,6 +7,7 @@ import cluster from "../../Assets/Projects/galaxy-clusters.png";
 import snews_pt from "../../Assets/Projects/snews_logo_inv.png";
 import ptany from "../../Assets/Projects/kara-pythonanywhere.png";
 import timebox from "../../Assets/Projects/timebox-notes-organizer.png";
+import hypotai from "../../Assets/Projects/HypotAI_logo.png";
 
 function Projects() {
   return (
@@ -78,6 +79,16 @@ function Projects() {
               // extraLink="https://karamelih.github.io/timebox/"
               extraLink="https://timebox-notes-organizer.lovable.app/"
               extraLabel="Open App"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={hypotai}
+              title="HypotAI"
+              description="Artificial Idiocy, a satirical/parody AI project that mocks overhyped AI use while teaching you the basics."
+              ghLink="https://github.com/KaraMelih/HypotAI"
+              demoLink=""
             />
           </Col>
 
